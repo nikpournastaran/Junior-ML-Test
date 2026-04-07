@@ -29,11 +29,9 @@ The application is designed to handle translation pair storage, dynamic prompt g
 
 ### Local Setup
 1. **Clone the repository:**
-  ```bash
+ 
+   `git clone`
 
-   git clone https://github.com/nikpournastaran/Junior-ML-Test.git
-
-   cd test
 ### Install Dependencies:
 `pip install -r requirements.txt`
 
@@ -54,4 +52,28 @@ Run the Container:
 `docker run -p 8000:8000 ml-test-app`
 
 The API will be available at http://localhost:8000
-   
+
+
+   # 📊 Captured Test Results
+The following outputs were captured by running the client.py script:
+### 1. Populate Database
+Line 1: Added translation pair.
+...
+Line 20: Added translation pair.
+(All 20 translation pairs successfully processed)
+
+### 2. Request Prompts
+Line 1: Received Translation Prompt.
+Translate from en to it.
+Query: Good night -> Translation: [Processed]
+...
+Line 18: Received Translation Prompt.
+Translate from it to en.
+Query: Ci vediamo -> Translation: [Processed]
+
+### 3. Detect Stammering
+Line 1: Response -> No (Expected: No)
+Line 3: Response -> Yes (Expected: Yes)
+Line 10: Response -> Yes (Expected: Yes)
+Line 12: Response -> Yes (Expected: Yes)
+(Results captured successfully against expected patterns)
