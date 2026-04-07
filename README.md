@@ -29,9 +29,11 @@ The application is designed to handle translation pair storage, dynamic prompt g
 
 ### Local Setup
 1. **Clone the repository:**
-   ```bash
-   git clone
-``
+  ```bash
+
+   git clone https://github.com/nikpournastaran/Junior-ML-Test.git
+
+   cd test
 ### Install Dependencies:
 `pip install -r requirements.txt`
 
