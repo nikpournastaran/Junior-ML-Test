@@ -77,3 +77,16 @@ Line 3: Response -> Yes (Expected: Yes)
 Line 10: Response -> Yes (Expected: Yes)
 Line 12: Response -> Yes (Expected: Yes)
 (Results captured successfully against expected patterns)
+
+
+
+# 🛠 Project Structure
+server.py: The main FastAPI/Flask application serving the endpoints.
+
+client.py: Tester script provided to verify the implementation.
+
+stammering_tests.jsonl, translation_pairs.jsonl, translation_requests.jsonl: Resource files for testing.
+
+Dockerfile: Configuration for containerization.
+
+requirements.txt: List of necessary Python packages.
