@@ -3,9 +3,9 @@ import json
 
 BASE_URL = 'http://localhost:8000'
 FILES = {
-    'translation_pairs': 'translation_pairs.jsonl',
-    'translation_requests': 'translation_requests.jsonl',
-    'stammering_tests': 'stammering_tests.jsonl'
+    'translation_pairs': 'data/translation_pairs.jsonl',
+    'translation_requests': 'data/translation_requests.jsonl',
+    'stammering_tests': 'data/stammering_tests.jsonl'
 }
 
 
